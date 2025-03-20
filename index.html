@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联启数智科技 - 智能供应链解决方案</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>联启数智科技</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#products">产品</a></li>
+                    <li><a href="#solutions">解决方案</a></li>
+                    <li><a href="#cases">成功案例</a></li>
+                    <li><a href="#about">关于联启</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主横幅 -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-tabs">
+                    <div class="tab active" data-tab="tab1">数智供应链</div>
+                    <div class="tab" data-tab="tab2">智能决策</div>
+                    <div class="tab" data-tab="tab3">数字化转型</div>
+                </div>
+                <div class="hero-tab-content">
+                    <div class="tab-pane active" id="tab1">
+                        <h1>用数智供应链力量赋能千行百业</h1>
+                        <p>为企业提供全方位、智能化的供应链整体解决方案</p>
+                        <button class="btn" data-modal="modal1">了解更多</button>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <h1>智能决策系统助力企业精准决策</h1>
+                        <p>基于大数据和AI技术，提供实时智能决策支持</p>
+                        <button class="btn" data-modal="modal2">了解更多</button>
+                    </div>
+                    <div class="tab-pane" id="tab3">
+                        <h1>全面数字化转型服务</h1>
+                        <p>帮助企业实现从传统到数字化的平稳转型</p>
+                        <button class="btn" data-modal="modal3">了解更多</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 主横幅 了解更多 模态框 -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div product-detail>
+                <h2>数智供应链</h2>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/gyl.jpg" alt="供应链管理系统">
+                    </div>
+                    <div class="detail-text">
+                        <h3>供应链管理系统 (SCM)</h3>
+                        <p>全面覆盖企业供应链管理需求，提供从采购到配送的一体化解决方案</p>
+                        <h3>供应链绩效</h3>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                        <h3>供应链绩效与数据分析</h3>
+                        <p>基于大数据技术，提供实时供应链绩效监控与深度数据分析能力</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div product-detail>
+                <h2>智能决策</h2>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/gyl2.jpg" alt="智能决策">
+                    </div>
+                    <div class="detail-text">
+                        <h3>智能决策系统</h3>
+                        <p>基于大数据和AI技术对历史数据进行分析考量，提供实时智能决策支持</p>
+                        <h3>智能决策系统特性</h3>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                        <h3>智能决策系统优势</h3>
+                        <p>实时数据分析，精准决策支持，助力企业实现业务增长</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div product-detail>
+                <h2>数字化转型</h2>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/gyl3.jpg" alt="数字化转型">
+                    </div>
+                    <div class="detail-text">
+                        <h3>数字化转型服务</h3>
+                        <p>帮助企业实现从传统到数字化的平稳转型</p>
+                        <h3>数字化转型服务内容</h3>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                        <h3>数字化转型服务优势</h3>
+                        <p>专业团队，定制化服务，助力企业实现数字化转型</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 产品展示模块 -->
+    <section id="products" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>产品展示</h2>
+                <p>联启数智创新智能产品体系，覆盖企业核心业务全链路软件产品</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-product="product1">
+                    <div class="product-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>供应链管理系统 (SCM)</h3>
+                    <p>全面覆盖企业供应链管理需求，提供从采购到配送的一体化解决方案</p>
+                    <button class="btn-small view-details">查看详情</button>
+                </div>
+                <div class="product-card" data-product="product2">
+                    <div class="product-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>供应链绩效与数据分析</h3>
+                    <p>基于大数据技术，提供实时供应链绩效监控与深度数据分析能力</p>
+                    <button class="btn-small view-details">查看详情</button>
+                </div>
+                <div class="product-card" data-product="product3">
+                    <div class="product-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>供应链Agent</h3>
+                    <p>智能代理技术，实现供应链流程自动化与智能决策支持</p>
+                    <button class="btn-small view-details">查看详情</button>
+                </div>
+                <div class="product-card" data-product="product4">
+                    <div class="product-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>供应链咨询与培训</h3>
+                    <p>专业团队提供供应链优化咨询与人才培养服务</p>
+                    <button class="btn-small view-details">查看详情</button>
+                </div>
+            </div>
+
+            <!-- 产品详情模态框 -->
+            <div class="modal" id="productModal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="product-detail" id="product1">
+                        <h2>供应链管理系统 (SCM)</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/gylDetail.jpg" alt="供应链管理系统">
+                            </div>
+                            <div class="detail-text">
+                                <h3>系统概述</h3>
+                                <p>联启数智SCM系统是一套全面覆盖企业供应链管理需求的一体化解决方案，从采购、库存、生产到配送全流程管理。</p>
+                                <h3>核心功能</h3>
+                                <ul>
+                                    <li>智能采购管理</li>
+                                    <li>库存优化与预测</li>
+                                    <li>生产计划与排程</li>
+                                    <li>配送路径优化</li>
+                                    <li>供应商协同管理</li>
+                                </ul>
+                                <h3>技术特点</h3>
+                                <p>基于微服务架构，支持云部署，具备高可用性和可扩展性，可根据企业需求进行定制化开发。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-detail" id="product2">
+                        <h2>供应链绩效与数据分析</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/jx.jpg" alt="供应链绩效与数据分析">
+                            </div>
+                            <div class="detail-text">
+                                <h3>系统概述</h3>
+                                <p>基于大数据技术的供应链绩效监控与分析系统，提供实时数据可视化和深度分析能力。</p>
+                                <h3>核心功能</h3>
+                                <ul>
+                                    <li>多维度KPI监控</li>
+                                    <li>预测性分析</li>
+                                    <li>异常检测与预警</li>
+                                    <li>决策支持仪表盘</li>
+                                    <li>自定义报表生成</li>
+                                </ul>
+                                <h3>技术特点</h3>
+                                <p>采用先进的数据处理技术和机器学习算法，支持海量数据实时处理，提供精准的分析结果和决策建议。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-detail" id="product3">
+                        <h2>供应链Agent</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/jqxx2.jpg" alt="供应链Agent">
+                            </div>
+                            <div class="detail-text">
+                                <h3>系统概述</h3>
+                                <p>基于AI技术的智能代理系统，实现供应链流程自动化与智能决策支持。</p>
+                                <h3>核心功能</h3>
+                                <ul>
+                                    <li>自动化流程执行</li>
+                                    <li>智能异常处理</li>
+                                    <li>预测性维护</li>
+                                    <li>自适应学习优化</li>
+                                    <li>多Agent协同工作</li>
+                                </ul>
+                                <h3>技术特点</h3>
+                                <p>结合最新的人工智能和机器学习技术，具备自主学习和决策能力，可持续优化供应链运营效率。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-detail" id="product4">
+                        <h2>供应链咨询与培训</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/zx2.jpg" alt="供应链咨询与培训">
+                            </div>
+                            <div class="detail-text">
+                                <h3>服务概述</h3>
+                                <p>专业团队提供供应链优化咨询与人才培养服务，帮助企业建立高效供应链体系。</p>
+                                <h3>核心服务</h3>
+                                <ul>
+                                    <li>供应链诊断与评估</li>
+                                    <li>优化方案设计</li>
+                                    <li>实施支持与辅导</li>
+                                    <li>专业人才培训</li>
+                                    <li>持续改进支持</li>
+                                </ul>
+                                <h3>服务特点</h3>
+                                <p>结合行业最佳实践和企业实际情况，提供定制化咨询方案，确保方案落地实施并取得实际效果。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 解决方案模块 -->
+    <section id="solutions" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>解决方案</h2>
+                <p>为企业提供数字化赋能服务，涵盖技术平台、业务能力中台等架构</p>
+            </div>
+            <div class="solutions-container">
+                <div class="solution-item" data-solution="solution1">
+                    <div class="solution-image">
+                        <img src="images/sp2.png" alt="技术平台解决方案">
+                    </div>
+                    <div class="solution-content">
+                        <h3>技术平台解决方案</h3>
+                        <p>构建企业级技术中台，提供稳定、高效、可扩展的技术支撑</p>
+                        <ul class="solution-features">
+                            <li>
+                                <div class="feature-icon">
+                                    <i class="fas fa-cubes"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <strong>微服务架构设计与实施</strong>
+                                    <p>基于领域驱动设计，构建松耦合、高内聚的微服务架构</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon">
+                                    <i class="fas fa-cloud"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <strong>云原生技术应用</strong>
+                                    <p>采用容器化技术，实现应用的快速部署、弹性伸缩和高可用性</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon">
+                                    <i class="fas fa-code-branch"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <strong>DevOps持续交付能力</strong>
+                                    <p>建立自动化的CI/CD流程，提高软件交付效率和质量</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="btn-small view-solution-details">查看详情</button>
+                    </div>
+                </div>
+                <div class="solution-item reverse" data-solution="solution2">
+                    <div class="solution-image">
+                        <img src="images/sjzt2.jpg" alt="业务能力中台">
+                    </div>
+                    <div class="solution-content">
+                        <h3>业务能力中台</h3>
+                        <p>打造企业业务能力中台，实现业务能力复用与快速创新</p>
+                        <ul class="solution-features">
+                            <li>
+                                <div class="feature-icon">
+                                    <i class="fas fa-puzzle-piece"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <strong>供应链业务组件化</strong>
+                                    <p>将供应链核心业务能力组件化，实现能力复用和快速组合</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <strong>数据驱动决策支持</strong>
+                                    <p>基于数据分析和AI技术，提供智能决策支持</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <strong>业务流程智能优化</strong>
+                                    <p>通过流程挖掘和优化技术，持续改进业务流程</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="btn-small view-solution-details">查看详情</button>
+                    </div>
+                </div>
+                <div class="solution-item" data-solution="solution3">
+                    <div class="solution-image">
+                        <img src="images/VCG41N699961546.jpg" alt="数字化转型方案">
+                    </div>
+                    <div class="solution-content">
+                        <h3>数字化转型方案</h3>
+                        <p>帮助企业"选对技术、夯实基础、快速行动"，实现数字化转型</p>
+                        <ul class="solution-features">
+                            <li>
+                                <div class="feature-icon">
+                                    <i class="fas fa-road"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <strong>数字化转型路径规划</strong>
+                                    <p>基于企业现状和行业趋势，制定合理的数字化转型路径</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon">
+                                    <i class="fas fa-digital-tachograph"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <strong>供应链数字孪生构建</strong>
+                                    <p>构建供应链数字孪生模型，实现供应链可视化和模拟优化</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <strong>智能决策系统实施</strong>
+                                    <p>基于AI和大数据技术，构建智能决策支持系统</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="btn-small view-solution-details">查看详情</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 解决方案详情模态框 -->
+            <div class="solutions-modal" id="solutionModal">
+                <div class="solutions-modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="solution-detail" id="solution1">
+                        <h2>技术平台解决方案</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/jx.jpg" alt="技术平台解决方案">
+                            </div>
+                            <div class="detail-text">
+                                <h3>方案概述</h3>
+                                <p>联启数智技术平台解决方案旨在构建企业级技术中台，提供稳定、高效、可扩展的技术支撑，助力企业数字化转型。</p>
+                                <h3>核心内容</h3>
+                                <ul>
+                                    <li><strong>微服务架构设计与实施</strong>：基于领域驱动设计，构建松耦合、高内聚的微服务架构</li>
+                                    <li><strong>云原生技术应用</strong>：采用容器化技术，实现应用的快速部署、弹性伸缩和高可用性</li>
+                                    <li><strong>DevOps持续交付能力</strong>：建立自动化的CI/CD流程，提高软件交付效率和质量</li>
+                                    <li><strong>API网关与服务治理</strong>：实现API统一管理、流量控制和服务监控</li>
+                                    <li><strong>数据中台建设</strong>：构建统一的数据采集、存储、处理和分析平台</li>
+                                </ul>
+                                <h3>实施方法</h3>
+                                <p>采用敏捷开发方法，分阶段实施，确保技术平台能够快速落地并持续优化，满足业务发展需求。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-detail" id="solution2">
+                        <h2>业务能力中台</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/h763.jpg" alt="业务能力中台">
+                            </div>
+                            <div class="detail-text">
+                                <h3>方案概述</h3>
+                                <p>联启数智业务能力中台旨在打造企业业务能力中台，实现业务能力复用与快速创新，提升企业业务响应速度和灵活性。</p>
+                                <h3>核心内容</h3>
+                                <ul>
+                                    <li><strong>供应链业务组件化</strong>：将供应链核心业务能力组件化，实现能力复用和快速组合</li>
+                                    <li><strong>数据驱动决策支持</strong>：基于数据分析和AI技术，提供智能决策支持</li>
+                                    <li><strong>业务流程智能优化</strong>：通过流程挖掘和优化技术，持续改进业务流程</li>
+                                    <li><strong>业务规则引擎</strong>：实现业务规则的灵活配置和动态调整</li>
+                                    <li><strong>业务能力开放平台</strong>：将业务能力以API形式开放，支持生态合作和创新</li>
+                                </ul>
+                                <h3>实施方法</h3>
+                                <p>基于企业业务现状和发展需求，采用迭代式方法构建业务能力中台，确保中台能力与业务需求紧密结合。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-detail" id="solution3">
+                        <h2>数字化转型方案</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/sjzt5.jpg" alt="数字化转型方案">
+                            </div>
+                            <div class="detail-text">
+                                <h3>方案概述</h3>
+                                <p>联启数智数字化转型方案旨在帮助企业"选对技术、夯实基础、快速行动"，实现从传统模式向数字化模式的平稳转型。</p>
+                                <h3>核心内容</h3>
+                                <ul>
+                                    <li><strong>数字化转型路径规划</strong>：基于企业现状和行业趋势，制定合理的数字化转型路径</li>
+                                    <li><strong>供应链数字孪生构建</strong>：构建供应链数字孪生模型，实现供应链可视化和模拟优化</li>
+                                    <li><strong>智能决策系统实施</strong>：基于AI和大数据技术，构建智能决策支持系统</li>
+                                    <li><strong>数字化组织与人才建设</strong>：培养数字化人才，建立适应数字化的组织结构和文化</li>
+                                    <li><strong>数字化转型评估与优化</strong>：建立数字化转型评估体系，持续优化转型效果</li>
+                                </ul>
+                                <h3>实施方法</h3>
+                                <p>采用"小步快跑"的方式，通过试点项目快速验证，逐步推广，确保数字化转型能够取得实际效果。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 成功案例模块 -->
+    <section id="cases" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>成功案例</h2>
+                <p>为行业头部企业构建核心业务系统的案例</p>
+            </div>
+            <div class="cases-slider">
+                <div class="case-card" data-case="case1">
+                    <div class="case-image">
+                        <img src="images/gyl2.jpg" alt="新零售案例">
+                    </div>
+                    <div class="case-content">
+                        <h3>新零售行业</h3>
+                        <p>为某全国连锁零售企业构建智能供应链系统，实现库存周转率提升30%，缺货率降低50%</p>
+                        <button class="btn-small view-case-details">查看详情</button>
+                    </div>
+                </div>
+                <div class="case-card" data-case="case2">
+                    <div class="case-image">
+                        <img src="images/R-C2.jpg" alt="制造业案例">
+                    </div>
+                    <div class="case-content">
+                        <h3>制造业</h3>
+                        <p>为某大型制造企业打造供应链协同平台，实现供应商协同效率提升40%，采购成本降低15%</p>
+                        <button class="btn-small view-case-details">查看详情</button>
+                    </div>
+                </div>
+                <div class="case-card" data-case="case3">
+                    <div class="case-image">
+                        <img src="images/gyl3.jpg" alt="物流行业案例">
+                    </div>
+                    <div class="case-content">
+                        <h3>物流行业</h3>
+                        <p>为某物流企业构建智能调度系统，实现该物流企业车辆利用率提升25%，配送时效提升35%</p>
+                        <button class="btn-small view-case-details">查看详情</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cases-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <!-- 案例详情模态框 -->
+            <div class="modal" id="caseModal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="case-detail" id="case1">
+                        <h2>新零售行业案例</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/chatu4.png" alt="新零售案例">
+                            </div>
+                            <div class="detail-text">
+                                <h3>客户背景</h3>
+                                <p>某全国连锁零售企业，拥有超过500家门店，面临库存管理难、缺货率高、供应链协同效率低等问题。</p>
+                                <h3>解决方案</h3>
+                                <ul>
+                                    <li>构建智能供应链系统，实现从采购到门店的全链路管理</li>
+                                    <li>应用AI需求预测技术，优化库存管理</li>
+                                    <li>建立供应商协同平台，提升供应链协同效率</li>
+                                    <li>实施门店智能补货系统，降低缺货率</li>
+                                </ul>
+                                <h3>实施效果</h3>
+                                <p>系统上线后，客户库存周转率提升30%，缺货率降低50%，供应链运营成本降低20%，客户满意度显著提升。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-detail" id="case2">
+                        <h2>制造业案例</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/supplier_loop.png" alt="制造业案例">
+                            </div>
+                            <div class="detail-text">
+                                <h3>客户背景</h3>
+                                <p>某大型制造企业，拥有复杂的供应商网络和生产体系，面临供应商管理难、采购成本高、生产计划响应慢等问题。</p>
+                                <h3>解决方案</h3>
+                                <ul>
+                                    <li>打造供应链协同平台，实现与供应商的高效协同</li>
+                                    <li>构建智能采购系统，优化采购策略和成本</li>
+                                    <li>实施生产计划优化系统，提升生产计划响应速度</li>
+                                    <li>建立供应商评估体系，持续优化供应商管理</li>
+                                </ul>
+                                <h3>实施效果</h3>
+                                <p>系统上线后，客户供应商协同效率提升40%，采购成本降低15%，生产计划响应时间缩短50%，产品交付周期显著缩短。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-detail" id="case3">
+                        <h2>物流行业案例</h2>
+                        <div class="detail-content">
+                            <div class="detail-image">
+                                <img src="images/8464.jpg_wh300.jpg" alt="物流行业案例">
+                            </div>
+                            <div class="detail-text">
+                                <h3>客户背景</h3>
+                                <p>某物流企业，拥有大量配送车辆和仓库，面临车辆利用率低、配送路径不合理、配送时效难以保障等问题。</p>
+                                <h3>解决方案</h3>
+                                <ul>
+                                    <li>构建智能调度系统，优化车辆调度和路径规划</li>
+                                    <li>实施仓库管理系统，提升仓库运营效率</li>
+                                    <li>应用大数据分析技术，优化网络布局和资源配置</li>
+                                    <li>建立配送监控平台，实时监控配送状态</li>
+                                </ul>
+                                <h3>实施效果</h3>
+                                <p>系统上线后，客户车辆利用率提升25%，配送时效提升35%，运营成本降低20%，客户满意度显著提升。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 企业服务介绍模块 -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>企业服务介绍</h2>
+                <p>全生命周期服务体系</p>
+            </div>
+            <div class="services-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>商务咨询</h3>
+                        <p>深入了解企业需求，提供专业的供应链优化建议</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>方案规划</h3>
+                        <p>基于企业实际情况，定制化设计供应链优化方案</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>系统实施</h3>
+                        <p>专业团队高效实施，确保系统稳定运行</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>培训支持</h3>
+                        <p>提供全面的系统使用培训，确保企业人员熟练掌握</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>持续运维</h3>
+                        <p>7*24小时技术支持，确保系统持续稳定运行</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 行业赋能宣传模块 -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>行业赋能宣传</h2>
+                <p>用数智供应链力量赋能千行百业</p>
+            </div>
+            <div class="industry-grid">
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>新零售</h3>
+                    <p>打造智慧门店与全渠道供应链协同，提升用户体验与运营效率</p>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>新制造</h3>
+                    <p>实现柔性生产与智能制造，提升生产效率与产品质量</p>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>电商</h3>
+                    <p>优化全链路电商供应链，提升履约效率与客户满意度</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>联启数智科技</h2>
+                    <p>选对技术、夯实基础、快速行动</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>产品</h3>
+                        <ul>
+                            <li><a href="#products">供应链管理系统</a></li>
+                            <li><a href="#products">供应链绩效与数据分析</a></li>
+                            <li><a href="#products">供应链Agent</a></li>
+                            <li><a href="#products">供应链咨询与培训</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>解决方案</h3>
+                        <ul>
+                            <li><a href="#solutions">技术平台解决方案</a></li>
+                            <li><a href="#solutions">业务能力中台</a></li>
+                            <li><a href="#solutions">数字化转型方案</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>联系我们</h3>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> 浙江省杭州市</li>
+                            <li><i class="fas fa-phone"></i> 400-123-4567</li>
+                            <li><i class="fas fa-envelope"></i> contact@lianqitech.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 联启数智科技 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
